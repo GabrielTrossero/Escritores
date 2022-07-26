@@ -1,0 +1,5 @@
+<!--el ? es porque el async await tarda un poco mas en cargar que el HTML,
+y da error porque las variables estarían vacías-->
+<h2>{{escritor?.nombre}} {{escritor?.apellidos}}</h2> 
+<img [src]="escritor?.imagen">
+<p>{{escritor?.pais}}</p>
